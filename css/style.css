@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(65, 244, 166);
+  padding: 8px 50px;
+  color: white;
+  align-items: center;
+}
+#fheader{
+  display: flex;
+
+}
+
+#sheader{
+  display: flex;
+  align-items: center;
+
+}
+
+#fheader>div{
+  margin: 0px 5px;
+}
+
+#sheader>div{
+  margin: 0px 5px;
+}
+
+#sheader button{
+  padding: 8px 14px;
+  color: rgb(65, 244, 166);
+  border: none;
+  border-radius:2px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 50px;
+  align-items: center;
+  background-color: white;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+}
+li{
+  list-style-type: none;
+}
+#content>ul{
+  display: flex;
+}
+#content li{
+  padding: 0px 15px;
+  color: black;
+
+}
+#logo span{
+  color:rgb(65, 244, 166);
+}
+#logo{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+#search{
+  color: black;
+}
+
+#search>.rel>input{
+  padding: 5px 2px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+}
+.rel{
+  position: relative;
+}
+.abs{
+  position: absolute;
+  top: 77px;
+  left: 1270px;
+}
+#main{
+  /* background-image: url('../images/back1.jpg'); */
+  background: linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)),url('../images/back1.jpg');
+  height: 510px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.body{
+  max-width: 450px;
+  margin: auto;
+  text-align: center;
+  padding-top: 150px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.body h4{
+  color: white;
+  background-color: rgb(65, 244, 166);
+  width: fit-content;
+  margin: auto;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.body h1{
+  color: white;
+  font-size: 40px;
+  padding: 5px 0px 10px;
+}
+.body p{
+  color: white;
+  padding: 5px 0px 20px;
+
+}
+.body button{
+  padding: 10px 30px;
+  border: none;
+  font-weight: 800;
+}
+#best{
+  background-color: rgb(65, 244, 166);
+  color: white;
+}
+nav a{
+  color: black;
+  text-decoration: none;
+}
+nav a:hover{
+  color: rgb(65, 244, 166);
+}
