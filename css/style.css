@@ -134,3 +134,83 @@ nav a{
 nav a:hover{
   color: rgb(65, 244, 166);
 }
+
+.dropdown{
+  display: none;
+}
+
+
+/* css responsiveness */
+@media(max-width:1337px){
+  .abs{
+    left: 1260px;
+  }
+}
+@media(max-width:1328px){
+  .abs{
+    left: 1250px;
+  }
+}
+@media(max-width:1318px){
+  .abs{
+    left: 1240px;
+  }
+}
+@media(max-width:1308px){
+  .abs{
+    left: 1230px;
+  }
+}
+@media(max-width:1298px){
+  .abs{
+    left: 1220px;
+  }
+}
+@media(max-width:1288px){
+  .abs{
+    left: 1210px;
+  }
+}
+
+@media(max-width:1280px){
+  .abs{
+    display:none;
+  }
+}
+
+@media(max-width:890px){
+  #content{
+    display: none;
+  }
+  .search{
+    display: none;
+  }
+  .dropdown{
+    display: block;
+    position: relative;
+  }
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    left: -150px;
+  }
+  .dropdown:hover .dropdown-content{
+    display: block;
+  }
+}
+@media(max-width:556px){
+  header{
+    display: none;
+  }
+}
+@media(max-width:344px){
+  .body{
+    max-width: 450px;
+    margin: auto;
+    text-align: center;
+    padding-top: 130px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+}
